@@ -1,0 +1,198 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    height:100vh;
+    
+    
+}
+
+
+
+.topo {
+  
+    margin: auto;
+    
+  
+    
+}
+.topo-1{
+ 
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    padding: 30px 0;
+    
+    
+}
+
+
+
+.texto-topo {
+
+    color: blue;
+    
+}
+
+.link-topo a{
+    color: black; 
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+
+.conteudo {
+    margin: 0 auto;
+    position: relative;
+    background-image: url("imagens/img-fundo.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+
+
+.conteudo-1 {
+    font-size: 20px;
+
+    opacity: 70%;
+    background-color: aqua;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: 450px;
+    top: 250px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.conteudo-igual{
+    margin: 0 auto;
+    width: 1024px;
+    margin-top:  200px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.conteiner-imagens{
+    width: 1024px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.filho{
+   
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.filho img{
+    width: 200px;
+}
+
+.filho a{
+    text-decoration: none;
+    
+}
+
+.iframe {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+
+.container-cards {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .card {
+    flex: 1 0 350px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: left;
+    background-color: #f1f1f1;
+  }
+  
+  .container-card-descricao {
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .container-card-img {
+    width: 30%;
+    height: 100%;
+  }
+  
+  .container-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .rodape {
+    width: 1024px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 15px;
+
+  }
+
+  .card-rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+  }
+
+  .card-rodape img{
+    width: 40px;
+  }
+
+  .card-rodape h1{
+    font-size: 18px;
+
+  }
+
+  footer {
+    text-align: center;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    width: 1054px;
+    margin: 0 auto;
+  }
